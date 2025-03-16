@@ -32,3 +32,19 @@ select *
 from students 
 where city = "mumbai";
 
+select * 
+from students 
+where marks>60;
+
+select *
+from students 
+where city in ("mumbai", "pune");    #in selects all data which contain these
+
+select *
+from students 
+where city not in ("mumbai", "pune");    #not in selects all data which dont contain thse
+
+select *
+from students
+where marks>20
+limit 3;
